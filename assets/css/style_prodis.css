@@ -1,0 +1,51 @@
+body {
+  background: #552583;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #fdb927;
+}
+
+header {
+  border-bottom: 1px dashed #fdb927;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header a:hover {
+  color: #fdb927;
+  text-decoration: underline;
+}
+
+header h1 {
+  color: #fdb927;
+  margin: 0 0 0 0;
+}
+
+@media screen and (max-width: 390px) {
+  header h1 {
+    font-size: 21px;
+  }
+}
+
+@media screen and (min-width: 391px) and  (max-width: 515px) {
+  header h1 {
+    font-size: 23px;
+  }
+}
+
+@media screen and (min-width: 530px) {
+  header h1 {
+    font-size: 31px;
+  }
+}
+
+header h1:before {
+  content: "";
+}
+
+.btn {
+  border: none;
+}
