@@ -13,17 +13,10 @@
   <body>
     <header>
       <div class="container">
-        <a id="a-title" href="{{ '/' | relative_url }}">
+        <a id="a-title" href="{{ '/' | relative_url }}" title="{{ site.description }}">
           <h1>{{ site.title | default: site.github.repository_name }}</h1>
         </a>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-
-        <section id="downloads">
-          <a href="./about.html" class="btn">About</a>
-          <a href="https://github.com/prodis" class="btn" target="_blank">GitHub</a>
-          <a href="https://twitter.com/prodis" class="btn" target="_blank">Twitter</a>
-          <a href="https://www.linkedin.com/in/prodis" class="btn" target="_blank">LinkedIn</a>
-        </section>
       </div>
     </header>
 
@@ -32,6 +25,17 @@
         {{ content }}
       </section>
     </div>
+
+    <footer>
+      <div class="container">
+        <section id="menu">
+          <a href="./about.html" class="btn">About</a>
+          <a href="https://github.com/prodis" class="btn" target="_blank">GitHub</a>
+          <a href="https://twitter.com/prodis" class="btn" target="_blank">Twitter</a>
+          <a href="https://www.linkedin.com/in/prodis" class="btn" target="_blank">LinkedIn</a>
+        </section>
+      </div>
+    </footer>
 
     {% if site.google_analytics %}
       <script>

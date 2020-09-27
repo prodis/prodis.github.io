@@ -10,6 +10,11 @@ header {
   border-bottom: 1px dashed #fdb927;
 }
 
+header .container {
+  background: url(/assets/images/prodis_logo_transparent.png) no-repeat right;
+  background-size: contain;
+}
+
 header a {
   text-decoration: none;
 }
@@ -24,19 +29,25 @@ header h1 {
   margin: 0 0 0 0;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 400px) {
   header h1 {
-    font-size: 21px;
+    font-size: 16px;
   }
 }
 
-@media screen and (min-width: 391px) and  (max-width: 515px) {
+@media screen and (min-width: 401px) and  (max-width: 515px) {
+  header h1 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 516px) and  (max-width: 650px) {
   header h1 {
     font-size: 23px;
   }
 }
 
-@media screen and (min-width: 530px) {
+@media screen and (min-width: 651px) {
   header h1 {
     font-size: 31px;
   }
@@ -44,6 +55,18 @@ header h1 {
 
 header h1:before {
   content: "";
+}
+
+footer {
+  background: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  border-top: 1px dashed #fdb927;
+  padding: 20px 0;
+  margin: 40px 0 0 0;
+}
+
+footer section {
+  margin: 20px 0 0 0;
 }
 
 .btn {
