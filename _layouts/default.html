@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Security-Policy" content="default-src https:">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="/assets/images/prodis_logo_transparent.png">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/style_prodis.css?v=' | append: site.github.build_revision | relative_url }}">
     {% seo %}
@@ -13,10 +14,10 @@
   <body>
     <header>
       <div class="container">
-        <a id="a-title" href="{{ '/' | relative_url }}" title="{{ site.description }}">
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
+        <a id="a-title" href="/" title="{{ site.description }}">
+          <h1>{{ site.title }}</h1>
         </a>
-        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+        <h2>{{ site.description }}</h2>
       </div>
     </header>
 
@@ -28,11 +29,19 @@
 
     <footer>
       <div class="container">
-        <section id="menu">
-          <a href="./about.html" class="btn">About</a>
-          <a href="https://github.com/prodis" class="btn" target="_blank">GitHub</a>
-          <a href="https://twitter.com/prodis" class="btn" target="_blank">Twitter</a>
-          <a href="https://www.linkedin.com/in/prodis" class="btn" target="_blank">LinkedIn</a>
+        <section class="menu">
+          <a href="/">Home</a>
+          <a href="./about.html">About</a>
+          <a href="https://github.com/prodis" target="_blank">GitHub</a>
+          <a href="https://twitter.com/prodis" target="_blank">Twitter</a>
+          <a href="https://www.linkedin.com/in/prodis" target="_blank">LinkedIn</a>
+        </section>
+
+        <section>
+          <div class="footer-info">{{ site.description }}</div>
+          <div class="copyright">
+            Copyright © 2020 Fernando Hamasaki de Amorim. All rights reserved.
+          </div>
         </section>
       </div>
     </footer>
