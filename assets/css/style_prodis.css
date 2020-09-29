@@ -49,6 +49,10 @@ footer section {
   margin: 0;
 }
 
+ul li {
+  list-style-image: none;
+}
+
 .menu {
   margin: 0 0 15px 0;
 }
