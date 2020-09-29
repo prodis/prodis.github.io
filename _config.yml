@@ -2,5 +2,6 @@ title: Fernando Hamasaki de Amorim
 description: Prodis' blog
 lang: en-GB
 url: https://fernandohamasaki.com
+excerpt_separator: <!--more-->
 
 theme: jekyll-theme-hacker
