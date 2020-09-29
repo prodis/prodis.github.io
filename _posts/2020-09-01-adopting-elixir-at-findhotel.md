@@ -7,7 +7,7 @@ tags: elixir findhotel
 
 About 9 mouths ago Elixir was introduced in the FindHotel's tech stack.
 
-<!--more-->
+<!-- more -->
 
 > Same or higher productivity and friendliness of Ruby combined with the production-ready reliability of Erlang.
 

@@ -15,15 +15,6 @@ header .container {
   background-size: contain;
 }
 
-header a {
-  text-decoration: none;
-}
-
-header a:hover {
-  color: #fdb927;
-  text-decoration: underline;
-}
-
 header h1 {
   color: #fdb927;
   margin: 0;
@@ -47,6 +38,10 @@ footer {
 
 footer section {
   margin: 0;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 ul li {
@@ -76,6 +71,22 @@ ul li {
 .btn {
   border: none;
 }
+
+#a-title:hover {
+  text-decoration: underline;
+  color: #fdb927;
+}
+
+.post-header { margin: 0 0 30px }
+.post-header h1 { margin: 0 }
+.post-header small { color: #888 }
+
+.post-item { margin: 0 0 40px 0 }
+.post-item a { text-decoration: none }
+.post-item a:hover { text-decoration: underline }
+.post-item h2 { color: #63c0f5; margin: 0; }
+.post-item p { margin: 15px 0 5px 0 }
+.post-item small { color: #888 }
 
 @media screen and (max-width: 400px) {
   header h1 {
