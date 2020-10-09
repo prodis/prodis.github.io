@@ -6,7 +6,7 @@ tags: elixir miss library package
 ---
 
 [*Miss Elixir*](https://github.com/prodis/miss-elixir) library brings in a non-intrusive way some extra functions that, for
-different reasons, are not part of the Elixir core.
+different reasons, are not part of the Elixir standard library.
 
 <!-- more -->
 
@@ -22,13 +22,13 @@ Of course you might be thinking now: "Oh man! One more library with utility func
 
 Said that, I kindly dare you to take a look in the examples below and see some real code where the functions in
 [*Miss Elixir*](https://hex.pm/packages/miss) were inspired. And after that, you make your conclusions if some of those functions
-maybe should be part of the Elixir core in the future versions.
+maybe should be part of the Elixir standard library in the future versions.
 
 ## Design decisions
 
 Before jumping to the examples, I just want to make clear some design decisions in *Miss Elixir*:
 - The order of the `Miss` namespace preceding the existing Elixir modules to be extended was made by intention. For example, `Miss.String`.
-- The modules in *Miss Elixir* are not intended to be used with aliases. Always use the entire namespace to make explicit that module/function does not belong to Elixir core.
+- The modules in *Miss Elixir* are not intended to be used with aliases. Always use the entire namespace to make explicit that module/function does not belong to Elixir standard library.
 - None of the functions in *Miss Elixir* has the same name of functions present in the correspondent Elixir module.
 
 ## Examples
